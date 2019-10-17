@@ -1,25 +1,63 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
 # production
-/build
+*/dist
+*/build
+build/Release
 
-# misc
-.DS_Store
-.env*
+# dependency directories
+node_modules/
+jspm_packages/
 
-# debug
+# Optional cache directories
+.npm
+.eslintcache
+
+# yarn Integrity file
+.yarn-integrity
+
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.editorconfig
+
+# misc
+*.env
+.env.test
+.env.local
+.DS_Store
+
+
+# runtime data
+pids
+*.pids
+*.seed
+*.pid.lock
+
+# tmp folders
+*/tmp
+frontend/src/utils/test/tmp
+*/coverage
+backend/documentation
