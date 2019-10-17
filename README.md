@@ -1,2 +1,1 @@
-# portfolio
-Portfolio website (for school)
+this should be filled in later on
