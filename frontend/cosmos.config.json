@@ -1,6 +1,6 @@
 {
   "watchDirs": ["src"],
-  "staticPath": "./src/assets",
+  "staticPath": "./src/images",
   "webpack": {
     "configPath": "./webpack.config.js",
     "hotReload": true
