@@ -28,7 +28,6 @@ const Style = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
   }
 
-
   a{
     text-decoration: none;
     cursor: pointer;

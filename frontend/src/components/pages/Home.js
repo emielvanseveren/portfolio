@@ -4,7 +4,7 @@ import Title from '../layout/Title.jsx'
 
 const Container = styled.div`
   width: 100%;
-  background-color: '#ededed';
+  background-color: #ededed;
 `
 const Landing = styled.div`
   height: 100vh;
