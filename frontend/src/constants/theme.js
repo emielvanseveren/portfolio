@@ -1,7 +1,7 @@
 // shared colors
 
 const highlight = '#f1cbff'
-const highlightLightTheme = '#c0a2cc'
+const highlightLightTheme = '#f1cbff'
 const white = '#FFFFFF'
 
 const lightTheme = {

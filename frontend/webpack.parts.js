@@ -139,6 +139,12 @@ exports.loaders = ({ filename }) => ({
   module: {
     rules: [
       {
+        test: /\.jsx?$/,
+        resolve: {
+          extensions: [".js", ".jsx"]
+        }
+      },
+      {
         test:     /\.(js|jsx)$/,
         exclude:  /node_modules/,
         // remember that a file is first handled by stylelint then by babel. If there is a styling error. This will cancel the build and return the styling error.
@@ -181,6 +187,12 @@ exports.loaders = ({ filename }) => ({
             outputPath: 'assets/images'
           }
         }
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: {
+          loader: 'url-loader?limit=100000',
+        },
       }
     ]
   }
