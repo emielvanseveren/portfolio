@@ -2,22 +2,10 @@ import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { createGlobalStyle } from 'styled-components'
 
-/* jaapok */
-import enhance from '../fonts/enhance.woff'
-import subtract from '../fonts/subtract.woff'
-
 const Style = createGlobalStyle`
   *::selection{
     background-color: black;
     color: white;
-  }
-  @font-face {
-    font-family: 'enhance';
-    src: url('${enhance}') format('woff');
-  }
-  @font-face {
-    font-family: 'subtract';
-    src: url('${subtract}') format('woff');
   }
 
   body{
@@ -36,16 +24,10 @@ const Style = createGlobalStyle`
     transition: 0.4s color;
     color: ${({ theme }) => theme.text};
   }
-  h2,h3,h4,h5,h6,p,button,label,input,div,textarea{
+  h1,h2,h3,h4,h5,h6,p,button,label,input,div,textarea{
     font-family: 'Poppins', sans-serif;
   }
 
-  h1{
-    font-family: 'subtract', sans-serif;
-    span{
-      font-family: 'jaapoksubtract', sans-serif;
-    }
-  }
 
   a{
     text-decoration: none;
