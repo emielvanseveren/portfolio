@@ -12,4 +12,3 @@ update_configs:
     update_schedule: "live"
     default_reviewers:
       - "emielvanseveren"
-      
