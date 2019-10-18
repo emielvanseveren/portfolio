@@ -7,6 +7,7 @@ const Style = createGlobalStyle`
     background-color: black;
     color: white;
   }
+
   body{
     padding: 0;
     margin: 0;
@@ -14,8 +15,8 @@ const Style = createGlobalStyle`
     transition: 0.4s background-color;
     background-color: ${({ theme }) => theme.background};
   }
+
   h1,h2,h3,h4,h5,h6,p,a,button,label,input,div,textarea{
-    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     outline: 0;
@@ -23,6 +24,10 @@ const Style = createGlobalStyle`
     transition: 0.4s color;
     color: ${({ theme }) => theme.text};
   }
+  h1,h2,h3,h4,h5,h6,p,button,label,input,div,textarea{
+    font-family: 'Poppins', sans-serif;
+  }
+
   a{
     text-decoration: none;
     cursor: pointer;
