@@ -34,14 +34,15 @@ export default function Title(){
   return (
     <Container>
         <Motion
-          defaultStyle={{ longWidth: 0, sw: 0 }}
-          style={{ longWidth: spring(100), sw: spring(50, { stiffness: 100, damping: 3})}}
+        // long width, short width
+          defaultStyle={{ lw: 0, sw: 0 }}
+          style={{ lw: spring(100) , sw: spring(50, { stiffness: 100, damping: 3})}}
         >
-          {({ longWidth, sw }) => (
+          {({ lw, sw }) => (
           <Letter>
-            <Block width={longWidth}/>
+            <Block width={lw}/>
             <Block width={sw}/>
-            <Block width={longWidth}/>
+            <Block width={lw}/>
           </Letter>
           )}
         </Motion>

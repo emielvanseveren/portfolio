@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import Title from '../layout/Title.jsx'
+import Menu from '../layout/Menu'
+import Title from '../layout/Title'
 
 const Container = styled.div`
   width: 100%;
@@ -13,12 +14,11 @@ const Landing = styled.div`
   justify-content: center;
 `
 
-
-
 export default function Home(){
   return (
     <Container>
       <Landing>
+        <Menu />
         <Title/>
       </Landing>
     </Container>
