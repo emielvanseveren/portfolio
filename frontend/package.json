@@ -9,7 +9,7 @@
     "lint": "eslint src/**/*.js",
     "lint:css": "stylelint src/**/*.js",
     "lint:fix": "eslint src/**/*.js --fix",
-    "sort-package-json": "sort-package-json package.json",
+    "sort": "sort-package-json package.json",
     "start": "webpack-dev-server --env development"
   },
   "dependencies": {
@@ -19,7 +19,8 @@
     "react-motion": "^0.5.2",
     "react-router-dom": "^5.1.2",
     "styled-components": "^4.4.0",
-    "three.js": "^0.77.1"
+    "three": "^0.109.0",
+    "dotenv": "^8.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -32,7 +33,6 @@
     "babel-plugin-styled-components": "^1.10.6",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
-    "dotenv": "^8.1.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "eslint": "^6.5.1",
