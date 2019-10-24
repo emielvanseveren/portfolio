@@ -1,20 +1,20 @@
 // shared colors
-
 const highlight = '#f1cbff'
 const highlightLightTheme = '#f1cbff'
-const white = '#FFFFFF'
+const white = '#ffffff'
+const night = '#282c35'
 
 const lightTheme = {
   highlight:       highlightLightTheme,
-  background: white,
   title:      highlightLightTheme,
-  text:       '#000000'
+  text:       night,
+  blob: white
 }
 const darkTheme = {
   highlight:     highlight,
-  background: '#282c35',
   title:      white,
-  text:       white
+  text:       white,
+  blob: night
 }
 
 const theme = mode => (mode === 'dark' ? darkTheme : lightTheme)

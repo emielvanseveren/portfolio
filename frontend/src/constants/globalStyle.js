@@ -31,6 +31,7 @@ const Style = createGlobalStyle`
   a{
     text-decoration: none;
     cursor: pointer;
+    font-size: 1.1rem;
   }
   p{
     font-size: 1rem;
