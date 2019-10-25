@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "lint": "eslint",
+    "lint": "eslint **/src/*--ignore-path .eslintingore",
     "sort": "sort-package-json package.json",
     "start": "node server.js"
   },
