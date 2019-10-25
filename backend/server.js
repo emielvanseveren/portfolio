@@ -13,7 +13,7 @@ const mount = require('koa-mount')
 
 
 const staticPages = new Koa()
-staticPages.use(serve(__dirname + '../frontend/dist'))
+staticPages.use(serve(__dirname + '/../frontend/dist'))
 app.use(mount("/", staticPages))
 
 app.use(BodyParser())
