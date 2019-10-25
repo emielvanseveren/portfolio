@@ -7,18 +7,20 @@ const app = new Koa()
 const Router = require('koa-router')
 const router = new Router()
 const serve = require('koa-static')
+const BodyParser = require('koa-bodyparser')
 const logger = require('koa-logger')
+const mount = require('koa-mount')
 
 
-// routes
-router.get('/', (ctx, next) => {
-  ctx.body= "this route works"
-})
+const staticPages = new Koa()
+staticPages.use(serve(__dirname + '../frontend/dist'))
+app.use(mount("/", staticPages))
 
-app
-  .use(router.routes())
+app.use(BodyParser())
+app.use(logger())
+
+app.use(router.routes())
   .use(router.allowedMethods())
-  .use(async ctx => { ctx.body = 'Hello World'})
-  .use(logger())
 
-app.listen(process.env.PORT,)
+const PORT = process.env.PORT || 3000
+app.listen(PORT, () => console.log('listening on port %s', PORT))
