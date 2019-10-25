@@ -63,12 +63,12 @@ exports[`<Title/> Snapshot 1`] = `
           </filter>
         </svg>
         <Blob__Blobs
-          c1="#88d3ce"
-          c2="#6e45e2"
+          c1="#09203f"
+          c2="#537895"
         >
           <StyledComponent
-            c1="#88d3ce"
-            c2="#6e45e2"
+            c1="#09203f"
+            c2="#537895"
             forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
@@ -76,7 +76,7 @@ exports[`<Title/> Snapshot 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "Blob__Blobs-sc-1p0ey2v-1",
                   "isStatic": false,
-                  "lastClassName": "dkMCBO",
+                  "lastClassName": "cEEBak",
                   "rules": Array [
                     "position:absolute;width:100%;height:100%;filter:url('#bubble');overflow:hidden;z-index:-1;& > div{position:absolute;will-change:transform;box-shadow:10px 10px 5px 0 rgba(0,0,0,0.5);background:",
                     [Function],
@@ -99,7 +99,7 @@ exports[`<Title/> Snapshot 1`] = `
             forwardedRef={null}
           >
             <div
-              className="Blob__Blobs-sc-1p0ey2v-1 dkMCBO"
+              className="Blob__Blobs-sc-1p0ey2v-1 cEEBak"
             >
               <ForwardRef
                 style={
@@ -139,7 +139,7 @@ exports[`<Title/> Snapshot 1`] = `
                           "payload": undefined,
                           "setValue": [Function],
                           "startPosition": 512,
-                          "startTime": 1572021087987,
+                          "startTime": 1572021162194,
                           "value": 512,
                         },
                         AnimatedValue {
@@ -154,7 +154,7 @@ exports[`<Title/> Snapshot 1`] = `
                           "payload": undefined,
                           "setValue": [Function],
                           "startPosition": 384,
-                          "startTime": 1572021087987,
+                          "startTime": 1572021162194,
                           "value": 384,
                         },
                       ],
@@ -208,7 +208,7 @@ exports[`<Title/> Snapshot 1`] = `
                           "payload": undefined,
                           "setValue": [Function],
                           "startPosition": 512,
-                          "startTime": 1572021087988,
+                          "startTime": 1572021162195,
                           "value": 512,
                         },
                         AnimatedValue {
@@ -223,7 +223,7 @@ exports[`<Title/> Snapshot 1`] = `
                           "payload": undefined,
                           "setValue": [Function],
                           "startPosition": 384,
-                          "startTime": 1572021087988,
+                          "startTime": 1572021162195,
                           "value": 384,
                         },
                       ],
@@ -277,7 +277,7 @@ exports[`<Title/> Snapshot 1`] = `
                           "payload": undefined,
                           "setValue": [Function],
                           "startPosition": 512,
-                          "startTime": 1572021087988,
+                          "startTime": 1572021162195,
                           "value": 512,
                         },
                         AnimatedValue {
@@ -292,7 +292,7 @@ exports[`<Title/> Snapshot 1`] = `
                           "payload": undefined,
                           "setValue": [Function],
                           "startPosition": 384,
-                          "startTime": 1572021087988,
+                          "startTime": 1572021162195,
                           "value": 384,
                         },
                       ],

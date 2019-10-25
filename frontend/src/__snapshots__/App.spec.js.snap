@@ -129,7 +129,7 @@ exports[`<App/> Snapshot 1`] = `
                 }
               }
               exact={true}
-              key="3c0d51c6-7e8c-4a05-be9c-f8f8db83c143"
+              key="938bc1dc-d8cd-4fa2-ab89-7d8d3ec65f01"
               location={
                 Object {
                   "hash": "",
@@ -274,12 +274,12 @@ exports[`<App/> Snapshot 1`] = `
                                 </filter>
                               </svg>
                               <Blob__Blobs
-                                c1="#8ec5fc"
-                                c2="#2af598"
+                                c1="#ff0844"
+                                c2="#ffb199"
                               >
                                 <StyledComponent
-                                  c1="#8ec5fc"
-                                  c2="#2af598"
+                                  c1="#ff0844"
+                                  c2="#ffb199"
                                   forwardedComponent={
                                     Object {
                                       "$$typeof": Symbol(react.forward_ref),
@@ -287,7 +287,7 @@ exports[`<App/> Snapshot 1`] = `
                                       "componentStyle": ComponentStyle {
                                         "componentId": "Blob__Blobs-sc-1p0ey2v-1",
                                         "isStatic": false,
-                                        "lastClassName": "dqjYxf",
+                                        "lastClassName": "jMbjnG",
                                         "rules": Array [
                                           "position:absolute;width:100%;height:100%;filter:url('#bubble');overflow:hidden;z-index:-1;& > div{position:absolute;will-change:transform;box-shadow:10px 10px 5px 0 rgba(0,0,0,0.5);background:",
                                           [Function],
@@ -310,7 +310,7 @@ exports[`<App/> Snapshot 1`] = `
                                   forwardedRef={null}
                                 >
                                   <div
-                                    className="Blob__Blobs-sc-1p0ey2v-1 dqjYxf"
+                                    className="Blob__Blobs-sc-1p0ey2v-1 jMbjnG"
                                   >
                                     <ForwardRef
                                       style={
@@ -350,7 +350,7 @@ exports[`<App/> Snapshot 1`] = `
                                                 "payload": undefined,
                                                 "setValue": [Function],
                                                 "startPosition": 512,
-                                                "startTime": 1572021087975,
+                                                "startTime": 1572021162166,
                                                 "value": 512,
                                               },
                                               AnimatedValue {
@@ -365,7 +365,7 @@ exports[`<App/> Snapshot 1`] = `
                                                 "payload": undefined,
                                                 "setValue": [Function],
                                                 "startPosition": 384,
-                                                "startTime": 1572021087975,
+                                                "startTime": 1572021162166,
                                                 "value": 384,
                                               },
                                             ],
@@ -419,7 +419,7 @@ exports[`<App/> Snapshot 1`] = `
                                                 "payload": undefined,
                                                 "setValue": [Function],
                                                 "startPosition": 512,
-                                                "startTime": 1572021087975,
+                                                "startTime": 1572021162166,
                                                 "value": 512,
                                               },
                                               AnimatedValue {
@@ -434,7 +434,7 @@ exports[`<App/> Snapshot 1`] = `
                                                 "payload": undefined,
                                                 "setValue": [Function],
                                                 "startPosition": 384,
-                                                "startTime": 1572021087975,
+                                                "startTime": 1572021162166,
                                                 "value": 384,
                                               },
                                             ],
@@ -488,7 +488,7 @@ exports[`<App/> Snapshot 1`] = `
                                                 "payload": undefined,
                                                 "setValue": [Function],
                                                 "startPosition": 512,
-                                                "startTime": 1572021087976,
+                                                "startTime": 1572021162167,
                                                 "value": 512,
                                               },
                                               AnimatedValue {
@@ -503,7 +503,7 @@ exports[`<App/> Snapshot 1`] = `
                                                 "payload": undefined,
                                                 "setValue": [Function],
                                                 "startPosition": 384,
-                                                "startTime": 1572021087976,
+                                                "startTime": 1572021162167,
                                                 "value": 384,
                                               },
                                             ],
@@ -839,7 +839,7 @@ exports[`<App/> Snapshot 1`] = `
                                 "payload": undefined,
                                 "setValue": [Function],
                                 "startPosition": 0,
-                                "startTime": 1572021088006,
+                                "startTime": 1572021162200,
                                 "value": 0,
                               },
                             }
@@ -985,7 +985,7 @@ exports[`<App/> Snapshot 1`] = `
                                   "payload": undefined,
                                   "setValue": [Function],
                                   "startPosition": 0,
-                                  "startTime": 1572021088006,
+                                  "startTime": 1572021162200,
                                   "value": 0,
                                 },
                               }
@@ -1105,7 +1105,7 @@ exports[`<App/> Snapshot 1`] = `
                                     "payload": undefined,
                                     "setValue": [Function],
                                     "startPosition": 0,
-                                    "startTime": 1572021088006,
+                                    "startTime": 1572021162200,
                                     "value": 0,
                                   },
                                 }

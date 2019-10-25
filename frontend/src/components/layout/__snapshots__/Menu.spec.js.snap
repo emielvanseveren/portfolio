@@ -269,7 +269,7 @@ exports[`<Menu/> Snapshot 1`] = `
           "payload": undefined,
           "setValue": [Function],
           "startPosition": 0,
-          "startTime": 1572021087753,
+          "startTime": 1572021162025,
           "value": 0,
         },
       }
@@ -415,7 +415,7 @@ exports[`<Menu/> Snapshot 1`] = `
             "payload": undefined,
             "setValue": [Function],
             "startPosition": 0,
-            "startTime": 1572021087753,
+            "startTime": 1572021162025,
             "value": 0,
           },
         }
@@ -535,7 +535,7 @@ exports[`<Menu/> Snapshot 1`] = `
               "payload": undefined,
               "setValue": [Function],
               "startPosition": 0,
-              "startTime": 1572021087753,
+              "startTime": 1572021162025,
               "value": 0,
             },
           }
