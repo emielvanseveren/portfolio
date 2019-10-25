@@ -16,10 +16,9 @@ const Container = styled.div`
 export default function Home(){
   const [inRange, set] = useState(false)
   function changeMenuIconColor(e){
-    if(e.clientX > (window.innerWidth / 10 * 9) && e.clientY < 235){
+    if (e.clientX > (window.innerWidth / 10 * 9) && e.clientY < 235){
       set(true)
-    }
-    else{
+    } else {
       set(false)
     }
   }
@@ -27,7 +26,7 @@ export default function Home(){
     <Container onMouseMove={changeMenuIconColor}>
       <Trail/>
       <Title/>
-      <Menu inRange={inRange} />
+      <Menu inRange={inRange}/>
     </Container>
   )
 }

@@ -21,7 +21,7 @@ const Bubbles = styled.div`
     position: absolute;
     will-change: transform;
     box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
-    background: ${({ c1, c2 }) => 'linear-gradient('+ c1 + ',' + c2 + ')'};
+    background: ${({ c1, c2 }) => `linear-gradient(${c1},${c2})`};
     opacity: 0.9;
   }
   div:nth-child(1){
@@ -64,35 +64,32 @@ const Bubbles = styled.div`
 
 `
 
-  const startPostion = { x: (window.innerWidth / 2), y: (window.innerHeight / 2)}
-  const fast = { tension: 1200, friction: 40 }
-  const slow = { mass: 1, tension: 200, friction: 50 }
-  const trans = (x, y) => `translate3d(${x}px,${y}px,0) translate3d(-50%,-50%,0)`
-  const gradient = (c1, c2) => `linear-gradient(${c1},${c2})`
-
+const startPostion = { x: (window.innerWidth / 2), y: (window.innerHeight / 2) }
+const fast = { tension: 1200, friction: 40 }
+const slow = { mass: 1, tension: 200, friction: 50 }
+const trans = (x, y) => `translate3d(${x}px,${y}px,0) translate3d(-50%,-50%,0)`
 
 export default function Trail(){
-
   function setColors(){
     const colorset = colors[(Math.floor(Math.random() * 8) + 0)]
-    return {c1: colorset[0], c2: colorset[1]}
+    return { c1: colorset[0], c2: colorset[1] }
   }
   const [bg, setBg] = useState(setColors)
   const [trail, set] = useTrail(3, () => ({ xy: [startPostion.x, startPostion.y], config: i => (i === 0 ? fast : slow) }))
 
   return (
-    <Container onMouseMove={e => set({ xy: [e.clientX, e.clientY] })} onClick={() => setBg(setColors())}>
+    <Container onClick={() => setBg(setColors())} onMouseMove={e => set({ xy: [e.clientX, e.clientY] })} >
       <svg style={{ position: 'absolute', width: 0, height: 0 }}>
         <filter id="bubble">
-          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="35" />
-          <feColorMatrix in="blur" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 30 -7" />
+          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="35"/>
+          <feColorMatrix in="blur" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 30 -7"/>
         </filter>
       </svg>
       <Bubbles c1={bg.c1} c2={bg.c2}>
-        {trail.map((props, index) => (
-          <animated.div key={index} style={{ transform: props.xy.interpolate(trans)}}/>
+        {trail.map(({ xy }, index) => (
+          <animated.div key={xy[0 + index]} style={{ transform: xy.interpolate(trans) }}/>
         ))}
       </Bubbles>
     </Container>
- )
+  )
 }
