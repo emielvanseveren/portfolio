@@ -5,12 +5,7 @@ import App from './App'
 describe('<App/>', () => {
   it('Snapshot', () => {
     expect(mountWithRouterAndTheme(
-      createComponent()
+      <App/>
     )).toMatchSnapshot()
   })
 })
-
-function createComponent(props){
-  const defaultprops = {}
-  return <App {...defaultprops} {...props}/>
-}
