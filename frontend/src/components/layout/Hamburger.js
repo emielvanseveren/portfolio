@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -14,15 +15,19 @@ const Line = styled.div`
   width: 15px;
   height: 2px;
   margin-bottom: 2px;
-  background-color: ${({ inRange }) => inRange? 'white' : 'black'};
+  background-color: ${({ inRange }) => inRange ? 'white' : 'black'};
 `
 
-export default function Hamburger({inRange}){
-  return(
+export default function Hamburger({ inRange }){
+  return (
     <Container>
       <Line inRange={inRange}/>
       <Line inRange={inRange}/>
       <Line inRange={inRange}/>
     </Container>
   )
+}
+
+Hamburger.propTypes = {
+  inRange: PropTypes.bool.isRequired
 }
