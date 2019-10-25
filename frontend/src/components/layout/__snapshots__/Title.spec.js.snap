@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Title/> Snapshot 1`] = `
+<Title>
+  <Title__Container>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Title__Container-sc-1l89k4e-0",
+            "isStatic": false,
+            "lastClassName": "gpvpQO",
+            "rules": Array [
+              "width:100%;display:flex;align-items:center;justify-content:center;user-select:none;flex-direction:column;h1{font-size:8rem;text-align:center;color:",
+              [Function],
+              ";}span{text-align:right;display:block;font-size:1rem;color:",
+              [Function],
+              ";font-weight:600;}",
+            ],
+          },
+          "displayName": "Title__Container",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Title__Container-sc-1l89k4e-0",
+          "target": "div",
+          "toString": [Function],
+          "usesTheme": false,
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="Title__Container-sc-1l89k4e-0 gpvpQO"
+      >
+        <h1>
+          Emiel Van Severen
+          <span>
+            -Developer
+          </span>
+        </h1>
+      </div>
+    </StyledComponent>
+  </Title__Container>
+</Title>
+`;

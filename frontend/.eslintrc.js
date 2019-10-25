@@ -9,6 +9,10 @@ module.exports = {
       version: "detect"
     }
   },
+  globals: {
+    'mountWithRouterAndTheme': 'readonly',
+    'mount':           'readonly'
+  },
   env: {
     'browser': true,
     'node': true,

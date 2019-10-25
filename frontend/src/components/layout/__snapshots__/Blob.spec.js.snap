@@ -1,0 +1,318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Title/> Snapshot 1`] = `
+<Blob>
+  <Blob__Container
+    onClick={[Function]}
+    onMouseMove={[Function]}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Blob__Container-sc-1p0ey2v-0",
+            "isStatic": false,
+            "lastClassName": "fZISGy",
+            "rules": Array [
+              "position:absolute;width:100%;height:100%;",
+            ],
+          },
+          "displayName": "Blob__Container",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Blob__Container-sc-1p0ey2v-0",
+          "target": "div",
+          "toString": [Function],
+          "usesTheme": false,
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[Function]}
+      onMouseMove={[Function]}
+    >
+      <div
+        className="Blob__Container-sc-1p0ey2v-0 fZISGy"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        <svg
+          style={
+            Object {
+              "height": 0,
+              "position": "absolute",
+              "width": 0,
+            }
+          }
+        >
+          <filter
+            id="bubble"
+          >
+            <feGaussianBlur
+              in="SourceGraphic"
+              result="blur"
+              stdDeviation="35"
+            />
+            <feColorMatrix
+              in="blur"
+              values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 30 -7"
+            />
+          </filter>
+        </svg>
+        <Blob__Blobs
+          c1="#09203f"
+          c2="#537895"
+        >
+          <StyledComponent
+            c1="#09203f"
+            c2="#537895"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Blob__Blobs-sc-1p0ey2v-1",
+                  "isStatic": false,
+                  "lastClassName": "cEEBak",
+                  "rules": Array [
+                    "position:absolute;width:100%;height:100%;filter:url('#bubble');overflow:hidden;z-index:-1;& > div{position:absolute;will-change:transform;box-shadow:10px 10px 5px 0 rgba(0,0,0,0.5);background:",
+                    [Function],
+                    ";opacity:0.9;}div:nth-child(1){width:125px;height:125px;}div:nth-child(2){width:250px;border-radius:50% 40% 50% 35%;height:250px;}div:nth-child(3){width:150px;height:150px;}div::after{content:'';position:absolute;top:10px;left:10px;width:20px;height:20px;border-radius:50%;background:",
+                    [Function],
+                    ";opacity:0.8;}div:nth-child(2)::after{top:70px;left:70px;width:70px;height:70px;}div:nth-child(3)::after{top:50px;left:50px;width:50px;height:50px;}",
+                  ],
+                },
+                "displayName": "Blob__Blobs",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Blob__Blobs-sc-1p0ey2v-1",
+                "target": "div",
+                "toString": [Function],
+                "usesTheme": false,
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="Blob__Blobs-sc-1p0ey2v-1 cEEBak"
+            >
+              <ForwardRef
+                style={
+                  Object {
+                    "transform": AnimatedInterpolation {
+                      "attach": [Function],
+                      "calc": [Function],
+                      "children": Array [
+                        AnimatedStyle {
+                          "attach": [Function],
+                          "children": Array [
+                            AnimatedProps {
+                              "attach": [Function],
+                              "children": Array [],
+                              "detach": [Function],
+                              "payload": Object {
+                                "style": [Circular],
+                              },
+                              "update": [Function],
+                            },
+                          ],
+                          "detach": [Function],
+                          "payload": [Circular],
+                        },
+                      ],
+                      "detach": [Function],
+                      "payload": Array [
+                        AnimatedValue {
+                          "animatedStyles": Set {},
+                          "children": Array [
+                            [Circular],
+                          ],
+                          "done": false,
+                          "lastPosition": 512,
+                          "lastTime": undefined,
+                          "lastVelocity": undefined,
+                          "payload": undefined,
+                          "setValue": [Function],
+                          "startPosition": 512,
+                          "startTime": 1572021162194,
+                          "value": 512,
+                        },
+                        AnimatedValue {
+                          "animatedStyles": Set {},
+                          "children": Array [
+                            [Circular],
+                          ],
+                          "done": false,
+                          "lastPosition": 384,
+                          "lastTime": undefined,
+                          "lastVelocity": undefined,
+                          "payload": undefined,
+                          "setValue": [Function],
+                          "startPosition": 384,
+                          "startTime": 1572021162194,
+                          "value": 384,
+                        },
+                      ],
+                    },
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "transform": "translate3d(512px,384px,0) translate3d(-50%,-50%,0)",
+                    }
+                  }
+                />
+              </ForwardRef>
+              <ForwardRef
+                style={
+                  Object {
+                    "transform": AnimatedInterpolation {
+                      "attach": [Function],
+                      "calc": [Function],
+                      "children": Array [
+                        AnimatedStyle {
+                          "attach": [Function],
+                          "children": Array [
+                            AnimatedProps {
+                              "attach": [Function],
+                              "children": Array [],
+                              "detach": [Function],
+                              "payload": Object {
+                                "style": [Circular],
+                              },
+                              "update": [Function],
+                            },
+                          ],
+                          "detach": [Function],
+                          "payload": [Circular],
+                        },
+                      ],
+                      "detach": [Function],
+                      "payload": Array [
+                        AnimatedValue {
+                          "animatedStyles": Set {},
+                          "children": Array [
+                            [Circular],
+                          ],
+                          "done": false,
+                          "lastPosition": 512,
+                          "lastTime": undefined,
+                          "lastVelocity": undefined,
+                          "payload": undefined,
+                          "setValue": [Function],
+                          "startPosition": 512,
+                          "startTime": 1572021162195,
+                          "value": 512,
+                        },
+                        AnimatedValue {
+                          "animatedStyles": Set {},
+                          "children": Array [
+                            [Circular],
+                          ],
+                          "done": false,
+                          "lastPosition": 384,
+                          "lastTime": undefined,
+                          "lastVelocity": undefined,
+                          "payload": undefined,
+                          "setValue": [Function],
+                          "startPosition": 384,
+                          "startTime": 1572021162195,
+                          "value": 384,
+                        },
+                      ],
+                    },
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "transform": "translate3d(512px,384px,0) translate3d(-50%,-50%,0)",
+                    }
+                  }
+                />
+              </ForwardRef>
+              <ForwardRef
+                style={
+                  Object {
+                    "transform": AnimatedInterpolation {
+                      "attach": [Function],
+                      "calc": [Function],
+                      "children": Array [
+                        AnimatedStyle {
+                          "attach": [Function],
+                          "children": Array [
+                            AnimatedProps {
+                              "attach": [Function],
+                              "children": Array [],
+                              "detach": [Function],
+                              "payload": Object {
+                                "style": [Circular],
+                              },
+                              "update": [Function],
+                            },
+                          ],
+                          "detach": [Function],
+                          "payload": [Circular],
+                        },
+                      ],
+                      "detach": [Function],
+                      "payload": Array [
+                        AnimatedValue {
+                          "animatedStyles": Set {},
+                          "children": Array [
+                            [Circular],
+                          ],
+                          "done": false,
+                          "lastPosition": 512,
+                          "lastTime": undefined,
+                          "lastVelocity": undefined,
+                          "payload": undefined,
+                          "setValue": [Function],
+                          "startPosition": 512,
+                          "startTime": 1572021162195,
+                          "value": 512,
+                        },
+                        AnimatedValue {
+                          "animatedStyles": Set {},
+                          "children": Array [
+                            [Circular],
+                          ],
+                          "done": false,
+                          "lastPosition": 384,
+                          "lastTime": undefined,
+                          "lastVelocity": undefined,
+                          "payload": undefined,
+                          "setValue": [Function],
+                          "startPosition": 384,
+                          "startTime": 1572021162195,
+                          "value": 384,
+                        },
+                      ],
+                    },
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "transform": "translate3d(512px,384px,0) translate3d(-50%,-50%,0)",
+                    }
+                  }
+                />
+              </ForwardRef>
+            </div>
+          </StyledComponent>
+        </Blob__Blobs>
+      </div>
+    </StyledComponent>
+  </Blob__Container>
+</Blob>
+`;
