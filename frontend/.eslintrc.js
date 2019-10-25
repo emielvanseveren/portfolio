@@ -9,11 +9,6 @@ module.exports = {
       version: "detect"
     }
   },
-  globals: {
-    '__API__':         'readonly',
-    'mountWithRouter': 'readonly',
-    'mount':           'readonly'
-  },
   env: {
     'browser': true,
     'node': true,
@@ -21,7 +16,7 @@ module.exports = {
     "es6": true
   },
   parserOptions: {
-    "ecmaVersion": 12,
+    "ecmaVersion": 11,
             "sourceType": "module",
             "ecmaFeatures": {
                 "jsx": true,

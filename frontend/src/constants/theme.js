@@ -5,16 +5,16 @@ const white = '#ffffff'
 const night = '#282c35'
 
 const lightTheme = {
-  highlight:       highlightLightTheme,
+  highlight:  highlightLightTheme,
   title:      highlightLightTheme,
   text:       night,
-  blob: white
+  blob:       white
 }
 const darkTheme = {
-  highlight:     highlight,
+  highlight:  highlight,
   title:      white,
   text:       white,
-  blob: night
+  blob:       night
 }
 
 const theme = mode => (mode === 'dark' ? darkTheme : lightTheme)

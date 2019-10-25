@@ -10,6 +10,4 @@ const colors = [
   ['#e8198b','#c7eafd']
 ]
 
-
-
 export default colors

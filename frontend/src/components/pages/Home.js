@@ -1,32 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 
 import Trail from '../layout/Trail'
 import Title from '../layout/Title'
-import Intro from '../layout/Intro'
+import Menu from '../layout/Menu'
 
 const Container = styled.div`
   width: 100%;
-`
-const Landing = styled.div`
-  height: 90vh;
-  width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 `
 
 export default function Home(){
+  const [inRange, set] = useState(false)
+  function changeMenuIconColor(e){
+    if (e.clientX > (window.innerWidth / 10 * 9) && e.clientY < 235){
+      set(true)
+    } else {
+      set(false)
+    }
+  }
   return (
-    <Container>
-      {/*absolute containers*/}
+    <Container onMouseMove={changeMenuIconColor}>
       <Trail/>
-
-      <Landing>
-        <Title/>
-      </Landing>
-
-      <Intro/>
+      <Title/>
+      <Menu inRange={inRange}/>
     </Container>
   )
 }

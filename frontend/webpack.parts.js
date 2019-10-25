@@ -139,9 +139,9 @@ exports.loaders = ({ filename }) => ({
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test:     /\.jsx?$/,
         resolve: {
-          extensions: [".js", ".jsx"]
+          extensions: ['.js', '.jsx']
         }
       },
       {
@@ -190,9 +190,9 @@ exports.loaders = ({ filename }) => ({
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
-        use: {
-          loader: 'url-loader?limit=100000',
-        },
+        use:  {
+          loader: 'url-loader?limit=100000'
+        }
       }
     ]
   }

@@ -15,11 +15,10 @@ const Container = styled.div`
     color: ${({ theme }) => theme.blob};
   }
   span{
-    text-align: center;
+    text-align: right;
     display: block;
-    font-size: 4rem;
+    font-size: 1rem;
     color: ${({ theme }) => theme.blob};
-    margin-top: -80px;
     font-weight: 600;
   }
 `
@@ -27,7 +26,9 @@ const Container = styled.div`
 export default function Title(){
   return (
     <Container>
-      <h1>Emiel Van Severen</h1>
+      <h1>Emiel Van Severen
+        <span>-Developer</span>
+      </h1>
     </Container>
   )
 }
