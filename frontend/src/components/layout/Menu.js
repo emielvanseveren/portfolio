@@ -46,7 +46,12 @@ const MenuIcon = styled.a`
     height: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    filter: grayscale(100%)
+    filter: grayscale(100%);
+    transition: width 0.1s ease-in-out;
+
+    &:hover{
+      width: 22px;
+    }
   }
 `
 
