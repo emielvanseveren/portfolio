@@ -1,11 +1,11 @@
 import React from 'react'
-import Trail from './Trail'
+import Blob from './Blob'
 
 // should add theme provider as this is created in a parent component
 describe('<Title/>', () => {
   it('Snapshot', () => {
     expect(mountWithRouterAndTheme(
-      <Trail/>
+      <Blob/>
     )).toMatchSnapshot()
   })
 })

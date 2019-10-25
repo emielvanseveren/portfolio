@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 
-import Trail from '../layout/Trail'
+import Blob from '../layout/Blob'
 import Title from '../layout/Title'
 import Menu from '../layout/Menu'
 
@@ -24,7 +24,7 @@ export default function Home(){
   }
   return (
     <Container onMouseMove={changeMenuIconColor}>
-      <Trail/>
+      <Blob/>
       <Title/>
       <Menu inRange={inRange}/>
     </Container>

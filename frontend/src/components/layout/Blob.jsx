@@ -9,7 +9,7 @@ const Container = styled.div`
   height: 100%;
 `
 
-const Bubbles = styled.div`
+const Blobs = styled.div`
   position: absolute;
   width: 100%;
   height: 100%;
@@ -69,7 +69,7 @@ const fast = { tension: 1200, friction: 40 }
 const slow = { mass: 1, tension: 200, friction: 50 }
 const trans = (x, y) => `translate3d(${x}px,${y}px,0) translate3d(-50%,-50%,0)`
 
-export default function Trail(){
+export default function Blob(){
   function setColors(){
     const colorset = colors[(Math.floor(Math.random() * 8) + 0)]
     return { c1: colorset[0], c2: colorset[1] }
@@ -85,11 +85,11 @@ export default function Trail(){
           <feColorMatrix in="blur" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 30 -7"/>
         </filter>
       </svg>
-      <Bubbles c1={bg.c1} c2={bg.c2}>
+      <Blobs c1={bg.c1} c2={bg.c2}>
         {trail.map(({ xy }, index) => (
           <animated.div key={xy[0 + index]} style={{ transform: xy.interpolate(trans) }}/>
         ))}
-      </Bubbles>
+      </Blobs>
     </Container>
   )
 }
