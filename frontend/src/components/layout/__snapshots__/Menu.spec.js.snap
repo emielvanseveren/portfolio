@@ -1,0 +1,1110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu/> Snapshot 1`] = `
+<Menu
+  inRange={true}
+>
+  <div
+    onClick={[Function]}
+  >
+    <Hamburger
+      inRange={true}
+    >
+      <Hamburger__Container>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Hamburger__Container-sc-1tzi5x8-0",
+                "isStatic": false,
+                "lastClassName": "jePrcg",
+                "rules": Array [
+                  "position:absolute;display:flex;flex-direction:column;align-items:center;right:100px;top:100px;cursor:pointer;",
+                ],
+              },
+              "displayName": "Hamburger__Container",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Hamburger__Container-sc-1tzi5x8-0",
+              "target": "div",
+              "toString": [Function],
+              "usesTheme": false,
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <div
+            className="Hamburger__Container-sc-1tzi5x8-0 jePrcg"
+          >
+            <Hamburger__Line
+              inRange={true}
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "Hamburger__Line-sc-1tzi5x8-1",
+                      "isStatic": false,
+                      "lastClassName": "fefKSs",
+                      "rules": Array [
+                        "width:15px;height:2px;margin-bottom:2px;background-color:",
+                        [Function],
+                        ";",
+                      ],
+                    },
+                    "displayName": "Hamburger__Line",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "Hamburger__Line-sc-1tzi5x8-1",
+                    "target": "div",
+                    "toString": [Function],
+                    "usesTheme": false,
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                inRange={true}
+              >
+                <div
+                  className="Hamburger__Line-sc-1tzi5x8-1 fefKSs"
+                />
+              </StyledComponent>
+            </Hamburger__Line>
+            <Hamburger__Line
+              inRange={true}
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "Hamburger__Line-sc-1tzi5x8-1",
+                      "isStatic": false,
+                      "lastClassName": "fefKSs",
+                      "rules": Array [
+                        "width:15px;height:2px;margin-bottom:2px;background-color:",
+                        [Function],
+                        ";",
+                      ],
+                    },
+                    "displayName": "Hamburger__Line",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "Hamburger__Line-sc-1tzi5x8-1",
+                    "target": "div",
+                    "toString": [Function],
+                    "usesTheme": false,
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                inRange={true}
+              >
+                <div
+                  className="Hamburger__Line-sc-1tzi5x8-1 fefKSs"
+                />
+              </StyledComponent>
+            </Hamburger__Line>
+            <Hamburger__Line
+              inRange={true}
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "Hamburger__Line-sc-1tzi5x8-1",
+                      "isStatic": false,
+                      "lastClassName": "fefKSs",
+                      "rules": Array [
+                        "width:15px;height:2px;margin-bottom:2px;background-color:",
+                        [Function],
+                        ";",
+                      ],
+                    },
+                    "displayName": "Hamburger__Line",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "Hamburger__Line-sc-1tzi5x8-1",
+                    "target": "div",
+                    "toString": [Function],
+                    "usesTheme": false,
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                inRange={true}
+              >
+                <div
+                  className="Hamburger__Line-sc-1tzi5x8-1 fefKSs"
+                />
+              </StyledComponent>
+            </Hamburger__Line>
+          </div>
+        </StyledComponent>
+      </Hamburger__Container>
+    </Hamburger>
+  </div>
+  <Menu__Nav
+    style={
+      Object {
+        "width": AnimatedValue {
+          "animatedStyles": Set {},
+          "children": Array [
+            AnimatedStyle {
+              "attach": [Function],
+              "children": Array [
+                AnimatedProps {
+                  "attach": [Function],
+                  "children": Array [],
+                  "detach": [Function],
+                  "payload": Object {
+                    "children": <ForwardRef(Menu__Inner)>
+                      <React.Fragment>
+                        <ForwardRef(Menu__MenuIcon)
+                          data-tip="Personal Blog 🔥"
+                          href="https://blog.emielvanseveren.be/"
+                          target="_blank"
+                        >
+                          <img
+                            src=""
+                          />
+                        </ForwardRef(Menu__MenuIcon)>
+                        <ForwardRef(Menu__StyledReactTooltip)
+                          effect="solid"
+                          place="left"
+                          type="dark"
+                        />
+                      </React.Fragment>
+                      <React.Fragment>
+                        <ForwardRef(Menu__MenuIcon)
+                          data-tip="Github"
+                          href="https://github.com/emielvanseveren/"
+                          target="_blank"
+                        >
+                          <img
+                            src=""
+                          />
+                        </ForwardRef(Menu__MenuIcon)>
+                        <ForwardRef(Menu__StyledReactTooltip)
+                          effect="solid"
+                          place="left"
+                          type="dark"
+                        />
+                      </React.Fragment>
+                      <React.Fragment>
+                        <ForwardRef(Menu__MenuIcon)
+                          data-tip="emielvanseveren@outlook.com"
+                          href="mailto:emielvanseveren@outlook.com"
+                          target="_blank"
+                        >
+                          <img
+                            src=""
+                          />
+                        </ForwardRef(Menu__MenuIcon)>
+                        <ForwardRef(Menu__StyledReactTooltip)
+                          effect="solid"
+                          place="left"
+                          type="dark"
+                        />
+                      </React.Fragment>
+                      <React.Fragment>
+                        <ForwardRef(Menu__MenuIcon)
+                          data-tip="My company Massief"
+                          href="https://massief.biz/"
+                          target="_blank"
+                        >
+                          <img
+                            src=""
+                          />
+                        </ForwardRef(Menu__MenuIcon)>
+                        <ForwardRef(Menu__StyledReactTooltip)
+                          effect="solid"
+                          place="left"
+                          type="dark"
+                        />
+                      </React.Fragment>
+                      <React.Fragment>
+                        <ForwardRef(Menu__MenuIcon)
+                          data-tip="LinkedIn"
+                          href="https://linkedin/in/emielvanseveren/"
+                          target="_blank"
+                        >
+                          <img
+                            src=""
+                          />
+                        </ForwardRef(Menu__MenuIcon)>
+                        <ForwardRef(Menu__StyledReactTooltip)
+                          effect="solid"
+                          place="left"
+                          type="dark"
+                        />
+                      </React.Fragment>
+                    </ForwardRef(Menu__Inner)>,
+                    "className": "Menu__Nav-sc-16xruth-0 guIgTX",
+                    "style": [Circular],
+                  },
+                  "update": [Function],
+                },
+              ],
+              "detach": [Function],
+              "payload": [Circular],
+            },
+          ],
+          "done": false,
+          "lastPosition": 0,
+          "lastTime": undefined,
+          "lastVelocity": undefined,
+          "payload": undefined,
+          "setValue": [Function],
+          "startPosition": 0,
+          "startTime": 1572021087753,
+          "value": 0,
+        },
+      }
+    }
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Menu__Nav-sc-16xruth-0",
+            "isStatic": false,
+            "lastClassName": "guIgTX",
+            "rules": Array [
+              "position:absolute;display:flex;align-items:center;justify-content:center;right:0;top:0;height:100vh;background-color:#ededed;overflow:hidden;",
+            ],
+          },
+          "displayName": "Menu__Nav",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Menu__Nav-sc-16xruth-0",
+          "target": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "toString": [Function],
+          "usesTheme": false,
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      style={
+        Object {
+          "width": AnimatedValue {
+            "animatedStyles": Set {},
+            "children": Array [
+              AnimatedStyle {
+                "attach": [Function],
+                "children": Array [
+                  AnimatedProps {
+                    "attach": [Function],
+                    "children": Array [],
+                    "detach": [Function],
+                    "payload": Object {
+                      "children": <ForwardRef(Menu__Inner)>
+                        <React.Fragment>
+                          <ForwardRef(Menu__MenuIcon)
+                            data-tip="Personal Blog 🔥"
+                            href="https://blog.emielvanseveren.be/"
+                            target="_blank"
+                          >
+                            <img
+                              src=""
+                            />
+                          </ForwardRef(Menu__MenuIcon)>
+                          <ForwardRef(Menu__StyledReactTooltip)
+                            effect="solid"
+                            place="left"
+                            type="dark"
+                          />
+                        </React.Fragment>
+                        <React.Fragment>
+                          <ForwardRef(Menu__MenuIcon)
+                            data-tip="Github"
+                            href="https://github.com/emielvanseveren/"
+                            target="_blank"
+                          >
+                            <img
+                              src=""
+                            />
+                          </ForwardRef(Menu__MenuIcon)>
+                          <ForwardRef(Menu__StyledReactTooltip)
+                            effect="solid"
+                            place="left"
+                            type="dark"
+                          />
+                        </React.Fragment>
+                        <React.Fragment>
+                          <ForwardRef(Menu__MenuIcon)
+                            data-tip="emielvanseveren@outlook.com"
+                            href="mailto:emielvanseveren@outlook.com"
+                            target="_blank"
+                          >
+                            <img
+                              src=""
+                            />
+                          </ForwardRef(Menu__MenuIcon)>
+                          <ForwardRef(Menu__StyledReactTooltip)
+                            effect="solid"
+                            place="left"
+                            type="dark"
+                          />
+                        </React.Fragment>
+                        <React.Fragment>
+                          <ForwardRef(Menu__MenuIcon)
+                            data-tip="My company Massief"
+                            href="https://massief.biz/"
+                            target="_blank"
+                          >
+                            <img
+                              src=""
+                            />
+                          </ForwardRef(Menu__MenuIcon)>
+                          <ForwardRef(Menu__StyledReactTooltip)
+                            effect="solid"
+                            place="left"
+                            type="dark"
+                          />
+                        </React.Fragment>
+                        <React.Fragment>
+                          <ForwardRef(Menu__MenuIcon)
+                            data-tip="LinkedIn"
+                            href="https://linkedin/in/emielvanseveren/"
+                            target="_blank"
+                          >
+                            <img
+                              src=""
+                            />
+                          </ForwardRef(Menu__MenuIcon)>
+                          <ForwardRef(Menu__StyledReactTooltip)
+                            effect="solid"
+                            place="left"
+                            type="dark"
+                          />
+                        </React.Fragment>
+                      </ForwardRef(Menu__Inner)>,
+                      "className": "Menu__Nav-sc-16xruth-0 guIgTX",
+                      "style": [Circular],
+                    },
+                    "update": [Function],
+                  },
+                ],
+                "detach": [Function],
+                "payload": [Circular],
+              },
+            ],
+            "done": false,
+            "lastPosition": 0,
+            "lastTime": undefined,
+            "lastVelocity": undefined,
+            "payload": undefined,
+            "setValue": [Function],
+            "startPosition": 0,
+            "startTime": 1572021087753,
+            "value": 0,
+          },
+        }
+      }
+    >
+      <ForwardRef
+        className="Menu__Nav-sc-16xruth-0 guIgTX"
+        style={
+          Object {
+            "width": AnimatedValue {
+              "animatedStyles": Set {},
+              "children": Array [
+                AnimatedStyle {
+                  "attach": [Function],
+                  "children": Array [
+                    AnimatedProps {
+                      "attach": [Function],
+                      "children": Array [],
+                      "detach": [Function],
+                      "payload": Object {
+                        "children": <ForwardRef(Menu__Inner)>
+                          <React.Fragment>
+                            <ForwardRef(Menu__MenuIcon)
+                              data-tip="Personal Blog 🔥"
+                              href="https://blog.emielvanseveren.be/"
+                              target="_blank"
+                            >
+                              <img
+                                src=""
+                              />
+                            </ForwardRef(Menu__MenuIcon)>
+                            <ForwardRef(Menu__StyledReactTooltip)
+                              effect="solid"
+                              place="left"
+                              type="dark"
+                            />
+                          </React.Fragment>
+                          <React.Fragment>
+                            <ForwardRef(Menu__MenuIcon)
+                              data-tip="Github"
+                              href="https://github.com/emielvanseveren/"
+                              target="_blank"
+                            >
+                              <img
+                                src=""
+                              />
+                            </ForwardRef(Menu__MenuIcon)>
+                            <ForwardRef(Menu__StyledReactTooltip)
+                              effect="solid"
+                              place="left"
+                              type="dark"
+                            />
+                          </React.Fragment>
+                          <React.Fragment>
+                            <ForwardRef(Menu__MenuIcon)
+                              data-tip="emielvanseveren@outlook.com"
+                              href="mailto:emielvanseveren@outlook.com"
+                              target="_blank"
+                            >
+                              <img
+                                src=""
+                              />
+                            </ForwardRef(Menu__MenuIcon)>
+                            <ForwardRef(Menu__StyledReactTooltip)
+                              effect="solid"
+                              place="left"
+                              type="dark"
+                            />
+                          </React.Fragment>
+                          <React.Fragment>
+                            <ForwardRef(Menu__MenuIcon)
+                              data-tip="My company Massief"
+                              href="https://massief.biz/"
+                              target="_blank"
+                            >
+                              <img
+                                src=""
+                              />
+                            </ForwardRef(Menu__MenuIcon)>
+                            <ForwardRef(Menu__StyledReactTooltip)
+                              effect="solid"
+                              place="left"
+                              type="dark"
+                            />
+                          </React.Fragment>
+                          <React.Fragment>
+                            <ForwardRef(Menu__MenuIcon)
+                              data-tip="LinkedIn"
+                              href="https://linkedin/in/emielvanseveren/"
+                              target="_blank"
+                            >
+                              <img
+                                src=""
+                              />
+                            </ForwardRef(Menu__MenuIcon)>
+                            <ForwardRef(Menu__StyledReactTooltip)
+                              effect="solid"
+                              place="left"
+                              type="dark"
+                            />
+                          </React.Fragment>
+                        </ForwardRef(Menu__Inner)>,
+                        "className": "Menu__Nav-sc-16xruth-0 guIgTX",
+                        "style": [Circular],
+                      },
+                      "update": [Function],
+                    },
+                  ],
+                  "detach": [Function],
+                  "payload": [Circular],
+                },
+              ],
+              "done": false,
+              "lastPosition": 0,
+              "lastTime": undefined,
+              "lastVelocity": undefined,
+              "payload": undefined,
+              "setValue": [Function],
+              "startPosition": 0,
+              "startTime": 1572021087753,
+              "value": 0,
+            },
+          }
+        }
+      >
+        <nav
+          className="Menu__Nav-sc-16xruth-0 guIgTX"
+          style={
+            Object {
+              "width": 0,
+            }
+          }
+        >
+          <Menu__Inner>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Menu__Inner-sc-16xruth-1",
+                    "isStatic": false,
+                    "lastClassName": "dliqNd",
+                    "rules": Array [
+                      "display:flex;height:100%;width:100%;flex-direction:column;align-items:center;justify-content:center;",
+                    ],
+                  },
+                  "displayName": "Menu__Inner",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Menu__Inner-sc-16xruth-1",
+                  "target": "div",
+                  "toString": [Function],
+                  "usesTheme": false,
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="Menu__Inner-sc-16xruth-1 dliqNd"
+              >
+                <Menu__MenuIcon
+                  data-tip="Personal Blog 🔥"
+                  href="https://blog.emielvanseveren.be/"
+                  target="_blank"
+                >
+                  <StyledComponent
+                    data-tip="Personal Blog 🔥"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Menu__MenuIcon-sc-16xruth-2",
+                          "isStatic": false,
+                          "lastClassName": "dpwSnE",
+                          "rules": Array [
+                            "display:flex;align-items:center;justify-content:center;width:100%;padding:5px;transition:background-color .3s ease-in-out;&:hover{background-color:#cecece;}img{width:20px;height:auto;margin-top:15px;margin-bottom:15px;filter:grayscale(100%);transition:width 0.1s ease-in-out;&:hover{width:22px;}}",
+                          ],
+                        },
+                        "displayName": "Menu__MenuIcon",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Menu__MenuIcon-sc-16xruth-2",
+                        "target": "a",
+                        "toString": [Function],
+                        "usesTheme": false,
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    href="https://blog.emielvanseveren.be/"
+                    target="_blank"
+                  >
+                    <a
+                      className="Menu__MenuIcon-sc-16xruth-2 dpwSnE"
+                      data-tip="Personal Blog 🔥"
+                      href="https://blog.emielvanseveren.be/"
+                      target="_blank"
+                    >
+                      <img
+                        src=""
+                      />
+                    </a>
+                  </StyledComponent>
+                </Menu__MenuIcon>
+                <Menu__StyledReactTooltip
+                  effect="solid"
+                  place="left"
+                  type="dark"
+                >
+                  <StyledComponent
+                    effect="solid"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Menu__StyledReactTooltip-sc-16xruth-3",
+                          "isStatic": false,
+                          "lastClassName": "HwhjT",
+                          "rules": Array [
+                            "&.type-dark.place-right{font-size:1rem;font-weight:500;font-family:'Poppins',sans-serif;}",
+                          ],
+                        },
+                        "displayName": "Menu__StyledReactTooltip",
+                        "foldedComponentIds": Array [],
+                        "hide": [Function],
+                        "rebuild": [Function],
+                        "render": [Function],
+                        "show": [Function],
+                        "styledComponentId": "Menu__StyledReactTooltip-sc-16xruth-3",
+                        "supportedWrappers": Array [
+                          "div",
+                          "span",
+                        ],
+                        "target": [Function],
+                        "toString": [Function],
+                        "usesTheme": false,
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    place="left"
+                    type="dark"
+                  >
+                    <ReactTooltip
+                      className="Menu__StyledReactTooltip-sc-16xruth-3 HwhjT"
+                      clickable={false}
+                      effect="solid"
+                      insecure={true}
+                      place="left"
+                      resizeHide={true}
+                      type="dark"
+                      wrapper="div"
+                    >
+                      <div
+                        className="__react_component_tooltip place-left type-dark "
+                        data-id="tooltip"
+                      />
+                    </ReactTooltip>
+                  </StyledComponent>
+                </Menu__StyledReactTooltip>
+                <Menu__MenuIcon
+                  data-tip="Github"
+                  href="https://github.com/emielvanseveren/"
+                  target="_blank"
+                >
+                  <StyledComponent
+                    data-tip="Github"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Menu__MenuIcon-sc-16xruth-2",
+                          "isStatic": false,
+                          "lastClassName": "dpwSnE",
+                          "rules": Array [
+                            "display:flex;align-items:center;justify-content:center;width:100%;padding:5px;transition:background-color .3s ease-in-out;&:hover{background-color:#cecece;}img{width:20px;height:auto;margin-top:15px;margin-bottom:15px;filter:grayscale(100%);transition:width 0.1s ease-in-out;&:hover{width:22px;}}",
+                          ],
+                        },
+                        "displayName": "Menu__MenuIcon",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Menu__MenuIcon-sc-16xruth-2",
+                        "target": "a",
+                        "toString": [Function],
+                        "usesTheme": false,
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    href="https://github.com/emielvanseveren/"
+                    target="_blank"
+                  >
+                    <a
+                      className="Menu__MenuIcon-sc-16xruth-2 dpwSnE"
+                      data-tip="Github"
+                      href="https://github.com/emielvanseveren/"
+                      target="_blank"
+                    >
+                      <img
+                        src=""
+                      />
+                    </a>
+                  </StyledComponent>
+                </Menu__MenuIcon>
+                <Menu__StyledReactTooltip
+                  effect="solid"
+                  place="left"
+                  type="dark"
+                >
+                  <StyledComponent
+                    effect="solid"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Menu__StyledReactTooltip-sc-16xruth-3",
+                          "isStatic": false,
+                          "lastClassName": "HwhjT",
+                          "rules": Array [
+                            "&.type-dark.place-right{font-size:1rem;font-weight:500;font-family:'Poppins',sans-serif;}",
+                          ],
+                        },
+                        "displayName": "Menu__StyledReactTooltip",
+                        "foldedComponentIds": Array [],
+                        "hide": [Function],
+                        "rebuild": [Function],
+                        "render": [Function],
+                        "show": [Function],
+                        "styledComponentId": "Menu__StyledReactTooltip-sc-16xruth-3",
+                        "supportedWrappers": Array [
+                          "div",
+                          "span",
+                        ],
+                        "target": [Function],
+                        "toString": [Function],
+                        "usesTheme": false,
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    place="left"
+                    type="dark"
+                  >
+                    <ReactTooltip
+                      className="Menu__StyledReactTooltip-sc-16xruth-3 HwhjT"
+                      clickable={false}
+                      effect="solid"
+                      insecure={true}
+                      place="left"
+                      resizeHide={true}
+                      type="dark"
+                      wrapper="div"
+                    >
+                      <div
+                        className="__react_component_tooltip place-left type-dark "
+                        data-id="tooltip"
+                      />
+                    </ReactTooltip>
+                  </StyledComponent>
+                </Menu__StyledReactTooltip>
+                <Menu__MenuIcon
+                  data-tip="emielvanseveren@outlook.com"
+                  href="mailto:emielvanseveren@outlook.com"
+                  target="_blank"
+                >
+                  <StyledComponent
+                    data-tip="emielvanseveren@outlook.com"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Menu__MenuIcon-sc-16xruth-2",
+                          "isStatic": false,
+                          "lastClassName": "dpwSnE",
+                          "rules": Array [
+                            "display:flex;align-items:center;justify-content:center;width:100%;padding:5px;transition:background-color .3s ease-in-out;&:hover{background-color:#cecece;}img{width:20px;height:auto;margin-top:15px;margin-bottom:15px;filter:grayscale(100%);transition:width 0.1s ease-in-out;&:hover{width:22px;}}",
+                          ],
+                        },
+                        "displayName": "Menu__MenuIcon",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Menu__MenuIcon-sc-16xruth-2",
+                        "target": "a",
+                        "toString": [Function],
+                        "usesTheme": false,
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    href="mailto:emielvanseveren@outlook.com"
+                    target="_blank"
+                  >
+                    <a
+                      className="Menu__MenuIcon-sc-16xruth-2 dpwSnE"
+                      data-tip="emielvanseveren@outlook.com"
+                      href="mailto:emielvanseveren@outlook.com"
+                      target="_blank"
+                    >
+                      <img
+                        src=""
+                      />
+                    </a>
+                  </StyledComponent>
+                </Menu__MenuIcon>
+                <Menu__StyledReactTooltip
+                  effect="solid"
+                  place="left"
+                  type="dark"
+                >
+                  <StyledComponent
+                    effect="solid"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Menu__StyledReactTooltip-sc-16xruth-3",
+                          "isStatic": false,
+                          "lastClassName": "HwhjT",
+                          "rules": Array [
+                            "&.type-dark.place-right{font-size:1rem;font-weight:500;font-family:'Poppins',sans-serif;}",
+                          ],
+                        },
+                        "displayName": "Menu__StyledReactTooltip",
+                        "foldedComponentIds": Array [],
+                        "hide": [Function],
+                        "rebuild": [Function],
+                        "render": [Function],
+                        "show": [Function],
+                        "styledComponentId": "Menu__StyledReactTooltip-sc-16xruth-3",
+                        "supportedWrappers": Array [
+                          "div",
+                          "span",
+                        ],
+                        "target": [Function],
+                        "toString": [Function],
+                        "usesTheme": false,
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    place="left"
+                    type="dark"
+                  >
+                    <ReactTooltip
+                      className="Menu__StyledReactTooltip-sc-16xruth-3 HwhjT"
+                      clickable={false}
+                      effect="solid"
+                      insecure={true}
+                      place="left"
+                      resizeHide={true}
+                      type="dark"
+                      wrapper="div"
+                    >
+                      <div
+                        className="__react_component_tooltip place-left type-dark "
+                        data-id="tooltip"
+                      />
+                    </ReactTooltip>
+                  </StyledComponent>
+                </Menu__StyledReactTooltip>
+                <Menu__MenuIcon
+                  data-tip="My company Massief"
+                  href="https://massief.biz/"
+                  target="_blank"
+                >
+                  <StyledComponent
+                    data-tip="My company Massief"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Menu__MenuIcon-sc-16xruth-2",
+                          "isStatic": false,
+                          "lastClassName": "dpwSnE",
+                          "rules": Array [
+                            "display:flex;align-items:center;justify-content:center;width:100%;padding:5px;transition:background-color .3s ease-in-out;&:hover{background-color:#cecece;}img{width:20px;height:auto;margin-top:15px;margin-bottom:15px;filter:grayscale(100%);transition:width 0.1s ease-in-out;&:hover{width:22px;}}",
+                          ],
+                        },
+                        "displayName": "Menu__MenuIcon",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Menu__MenuIcon-sc-16xruth-2",
+                        "target": "a",
+                        "toString": [Function],
+                        "usesTheme": false,
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    href="https://massief.biz/"
+                    target="_blank"
+                  >
+                    <a
+                      className="Menu__MenuIcon-sc-16xruth-2 dpwSnE"
+                      data-tip="My company Massief"
+                      href="https://massief.biz/"
+                      target="_blank"
+                    >
+                      <img
+                        src=""
+                      />
+                    </a>
+                  </StyledComponent>
+                </Menu__MenuIcon>
+                <Menu__StyledReactTooltip
+                  effect="solid"
+                  place="left"
+                  type="dark"
+                >
+                  <StyledComponent
+                    effect="solid"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Menu__StyledReactTooltip-sc-16xruth-3",
+                          "isStatic": false,
+                          "lastClassName": "HwhjT",
+                          "rules": Array [
+                            "&.type-dark.place-right{font-size:1rem;font-weight:500;font-family:'Poppins',sans-serif;}",
+                          ],
+                        },
+                        "displayName": "Menu__StyledReactTooltip",
+                        "foldedComponentIds": Array [],
+                        "hide": [Function],
+                        "rebuild": [Function],
+                        "render": [Function],
+                        "show": [Function],
+                        "styledComponentId": "Menu__StyledReactTooltip-sc-16xruth-3",
+                        "supportedWrappers": Array [
+                          "div",
+                          "span",
+                        ],
+                        "target": [Function],
+                        "toString": [Function],
+                        "usesTheme": false,
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    place="left"
+                    type="dark"
+                  >
+                    <ReactTooltip
+                      className="Menu__StyledReactTooltip-sc-16xruth-3 HwhjT"
+                      clickable={false}
+                      effect="solid"
+                      insecure={true}
+                      place="left"
+                      resizeHide={true}
+                      type="dark"
+                      wrapper="div"
+                    >
+                      <div
+                        className="__react_component_tooltip place-left type-dark "
+                        data-id="tooltip"
+                      />
+                    </ReactTooltip>
+                  </StyledComponent>
+                </Menu__StyledReactTooltip>
+                <Menu__MenuIcon
+                  data-tip="LinkedIn"
+                  href="https://linkedin/in/emielvanseveren/"
+                  target="_blank"
+                >
+                  <StyledComponent
+                    data-tip="LinkedIn"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Menu__MenuIcon-sc-16xruth-2",
+                          "isStatic": false,
+                          "lastClassName": "dpwSnE",
+                          "rules": Array [
+                            "display:flex;align-items:center;justify-content:center;width:100%;padding:5px;transition:background-color .3s ease-in-out;&:hover{background-color:#cecece;}img{width:20px;height:auto;margin-top:15px;margin-bottom:15px;filter:grayscale(100%);transition:width 0.1s ease-in-out;&:hover{width:22px;}}",
+                          ],
+                        },
+                        "displayName": "Menu__MenuIcon",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Menu__MenuIcon-sc-16xruth-2",
+                        "target": "a",
+                        "toString": [Function],
+                        "usesTheme": false,
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    href="https://linkedin/in/emielvanseveren/"
+                    target="_blank"
+                  >
+                    <a
+                      className="Menu__MenuIcon-sc-16xruth-2 dpwSnE"
+                      data-tip="LinkedIn"
+                      href="https://linkedin/in/emielvanseveren/"
+                      target="_blank"
+                    >
+                      <img
+                        src=""
+                      />
+                    </a>
+                  </StyledComponent>
+                </Menu__MenuIcon>
+                <Menu__StyledReactTooltip
+                  effect="solid"
+                  place="left"
+                  type="dark"
+                >
+                  <StyledComponent
+                    effect="solid"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Menu__StyledReactTooltip-sc-16xruth-3",
+                          "isStatic": false,
+                          "lastClassName": "HwhjT",
+                          "rules": Array [
+                            "&.type-dark.place-right{font-size:1rem;font-weight:500;font-family:'Poppins',sans-serif;}",
+                          ],
+                        },
+                        "displayName": "Menu__StyledReactTooltip",
+                        "foldedComponentIds": Array [],
+                        "hide": [Function],
+                        "rebuild": [Function],
+                        "render": [Function],
+                        "show": [Function],
+                        "styledComponentId": "Menu__StyledReactTooltip-sc-16xruth-3",
+                        "supportedWrappers": Array [
+                          "div",
+                          "span",
+                        ],
+                        "target": [Function],
+                        "toString": [Function],
+                        "usesTheme": false,
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    place="left"
+                    type="dark"
+                  >
+                    <ReactTooltip
+                      className="Menu__StyledReactTooltip-sc-16xruth-3 HwhjT"
+                      clickable={false}
+                      effect="solid"
+                      insecure={true}
+                      place="left"
+                      resizeHide={true}
+                      type="dark"
+                      wrapper="div"
+                    >
+                      <div
+                        className="__react_component_tooltip place-left type-dark "
+                        data-id="tooltip"
+                      />
+                    </ReactTooltip>
+                  </StyledComponent>
+                </Menu__StyledReactTooltip>
+              </div>
+            </StyledComponent>
+          </Menu__Inner>
+        </nav>
+      </ForwardRef>
+    </StyledComponent>
+  </Menu__Nav>
+</Menu>
+`;
