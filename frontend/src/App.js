@@ -3,8 +3,18 @@ import { Helmet } from 'react-helmet'
 import Routing from './components/Routing'
 import { ThemeProvider } from './hooks/themeContext'
 import Style from './constants/globalStyle'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 export default function App(){
+  const toastConfig = {
+      autoClose:       5000,
+      position:        'bottom-left',
+      pauseOnHover:    true,
+      hideProgressBar: true,
+      draggable:       false
+    }
+
   return (
     <ThemeProvider>
       <Helmet>
@@ -16,6 +26,7 @@ export default function App(){
         <meta content="true" name="HandHeldFriendly"/>
         <meta content="#f1cbff" name="theme-color"/>
       </Helmet>
+      <ToastContainer {...toastConfig }/>
       <Style/>
       <Routing/>
     </ThemeProvider>

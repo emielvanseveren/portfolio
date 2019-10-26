@@ -17,9 +17,10 @@ const links = [
 
   },
   {
-    link: 'mailto:emielvanseveren@outlook.com',
+    link: 'emielvanseveren@outlook.com',
     src:  mail,
-    desc: 'emielvanseveren@outlook.com'
+    desc: 'emielvanseveren@outlook.com',
+    copy: true
   },
   {
     link: 'https://massief.biz/',

@@ -47,6 +47,9 @@ const Style = createGlobalStyle`
   outline: none;
   border-style: none;
   }
+  .Toastify__toast--default {
+    padding-left: 20px;
+  }
 `
 
 export function CosmosGlobalStyle({ children }){

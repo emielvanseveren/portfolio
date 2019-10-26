@@ -87,7 +87,7 @@ export default function Blob(){
       </svg>
       <Blobs c1={bg.c1} c2={bg.c2}>
         {trail.map(({ xy }, index) => (
-          <animated.div key={xy[0 + index]} style={{ transform: xy.interpolate(trans) }}/>
+          <animated.div key={ (xy+index) } style={{ transform: xy.interpolate(trans) }}/>
         ))}
       </Blobs>
     </Container>
