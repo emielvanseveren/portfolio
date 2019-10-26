@@ -6,6 +6,9 @@ import Hamburger from './Hamburger'
 import ReactTooltip from 'react-tooltip'
 import size from '../../constants/size'
 
+import { toast } from 'react-toastify'
+import copy from 'clipboard-copy'
+
 // icons
 import links from '../../util/data/menuLinks'
 
@@ -66,6 +69,11 @@ export default function Menu({ inRange }){
   const closeConfig = { mass: 1, transion: 170, friction: 26 }
   const props = useSpring({ width: open ? 75 : 0, config: open ? openConfig : closeConfig })
 
+  function copyMail(){
+    copy('emielvanseveren@outlook.com')
+    toast('E-mailaddress has been copied!')
+  }
+
   return (
     <Fragment>
       <div onClick={() => toggle(!open)}>
@@ -74,14 +82,29 @@ export default function Menu({ inRange }){
       <Nav style={props}>
         <Inner>
           {
-            links.map(({ link, src, desc }) => (
-              <Fragment key={link}>
-                <MenuIcon data-tip={desc} href={link} target="_blank">
-                  <img src={src}/>
-                </MenuIcon>
-                <StyledReactTooltip effect="solid" place="left" type="dark"/>
-              </Fragment>
-            ))
+            links.map(({ link = '', src, desc, copy = false }) => 
+              {
+                if( copy === false ){
+                  return (
+                  <Fragment key={link}>
+                    <MenuIcon data-tip={desc} href={link} target="_blank">
+                    <img src={src}/>
+                    </MenuIcon>
+                    <StyledReactTooltip effect="solid" place="left" type="dark"/>
+                  </Fragment>
+                  )
+                } else {
+                  return (
+                    <Fragment key={link}>
+                      <MenuIcon data-tip={desc} onClick={copyMail}>
+                       <img src={src}/>
+                      </MenuIcon>
+                      <StyledReactTooltip effect="solid" place="left" type="dark"/>
+                    </Fragment>
+                 )
+                }
+              }
+           )
           }
         </Inner>
       </Nav>
