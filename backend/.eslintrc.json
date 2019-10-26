@@ -1,0 +1,49 @@
+{
+  "extends": [
+      "eslint:recommended",
+      "plugin:node/recommended"
+  ],
+  "parserOptions": {
+      // Only ESLint 6.2.0 and later support ES2020.
+      "ecmaVersion": 2020
+  },
+  "rules": {
+      "node/exports-style": ["error", "module.exports"],
+      "node/file-extension-in-import": ["error", "always"],
+      "node/prefer-global/buffer": ["error", "always"],
+      "node/prefer-global/console": ["error", "always"],
+      "node/prefer-global/process": ["error", "always"],
+      "node/prefer-global/url-search-params": ["error", "always"],
+      "node/prefer-global/url": ["error", "always"],
+      "node/prefer-promises/dns": "error",
+      "node/prefer-promises/fs": "error",
+
+      "arrow-body-style": ["error", "as-needed" ],
+      "arrow-spacing": 2,
+      "brace-style": [2, "1tbs", { "allowSingleLine": true}],
+      "camelcase": 2,
+      "comma-dangle": [2, {
+        "arrays": "never",
+        "objects": "never",
+        "imports": "never",
+        "exports": "never",
+        "functions": "never"
+      }],
+      "key-spacing": [2, { "align": "value"}],
+      "linebreak-style": [2, "unix"],
+      "no-var": 2,
+      "no-multi-spaces": 2,
+      "no-multiple-empty-lines": [2, { "max": 1}],
+      "no-trailing-spaces": 2,
+      "no-void": 2,
+      "object-curly-spacing": [2, "always"],
+      "prefer-const": 2,
+      "quotes": [2, "single"],
+  "space-before-function-paren": [2, "never"],
+    "space-in-parens":             [2, "never"],
+    "space-infix-ops":             [2, { "int32Hint": true }],
+    "strict":                      0
+
+
+  }
+}
