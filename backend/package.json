@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "lint": "eslint **/src/*--ignore-path .eslintingore",
+    "lint": "eslint '**/*.js' --ignore-path .eslintignore .",
     "sort": "sort-package-json package.json",
     "start": "node server.js"
   },
@@ -23,6 +23,7 @@
     "@babel/core": "^7.6.4",
     "@babel/register": "^7.6.2",
     "eslint": "^6.5.1",
+    "eslint-plugin-node": "^10.0.0",
     "jest": "^24.9.0",
     "sort-package-json": "^1.22.1"
   }
