@@ -4,13 +4,10 @@ import styled from 'styled-components'
 import { useSpring, animated } from 'react-spring'
 import Hamburger from './Hamburger'
 import ReactTooltip from 'react-tooltip'
+import size from '../../constants/size'
 
 // icons
-import github from '../../images/github.svg'
-import linkedin from '../../images/linkedin.svg'
-import massief from '../../images/massief.svg'
-import blog from '../../images/blog.svg'
-import mail from '../../images/mail.svg'
+import links from '../../util/data/menuLinks'
 
 const Nav = styled(animated.nav)`
   position: absolute;
@@ -63,34 +60,6 @@ const StyledReactTooltip = styled(ReactTooltip)`
   }
 `
 export default function Menu({ inRange }){
-  const links = [
-    {
-      link: 'https://blog.emielvanseveren.be/',
-      src:  blog,
-      desc: 'Personal Blog 🔥'
-    },
-    {
-      link: 'https://github.com/emielvanseveren/',
-      src:  github,
-      desc: 'Github'
-
-    },
-    {
-      link: 'mailto:emielvanseveren@outlook.com',
-      src:  mail,
-      desc: 'emielvanseveren@outlook.com'
-    },
-    {
-      link: 'https://massief.biz/',
-      src:  massief,
-      desc: 'My company Massief'
-    },
-    {
-      link: 'https://linkedin/in/emielvanseveren/',
-      src:  linkedin,
-      desc: 'LinkedIn'
-    }
-  ]
 
   const [open, toggle] = useState(false)
   const openConfig = { mass: 1, tensions: 250, friction: 10 }

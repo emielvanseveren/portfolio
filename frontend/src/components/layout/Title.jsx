@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import size from '../../constants/size'
 
 const Container = styled.div`
   width: 100%;
@@ -20,6 +21,21 @@ const Container = styled.div`
     font-size: 1rem;
     color: ${({ theme }) => theme.blob};
     font-weight: 600;
+  }
+  @media ${size.lg}{
+    h1{
+      font-size: 6rem;
+    }
+  }
+  @media ${size.md}{
+    span{
+      text-align: center;
+    }
+  }
+  @media ${size.xs}{
+    h1{
+      font-size: 4rem;
+    }
   }
 `
 
