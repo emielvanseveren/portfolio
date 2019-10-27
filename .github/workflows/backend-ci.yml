@@ -26,10 +26,6 @@ jobs:
       run: |
         cd backend
         yarn
-    - name: yarn test
-      run: |
-        cd backend
-        yarn test
     - name: yarn lint
       run: |
         cd backend
