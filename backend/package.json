@@ -5,7 +5,8 @@
   "scripts": {
     "lint": "eslint '**/*.js' --ignore-path .eslintignore .",
     "sort": "sort-package-json package.json",
-    "start": "node server.js"
+    "start": "nodemon src/*.js",
+    "start:production": "node server.js"
   },
   "license": "ISC",
   "dependencies": {
@@ -25,6 +26,7 @@
     "eslint": "^6.5.1",
     "eslint-plugin-node": "^10.0.0",
     "jest": "^24.9.0",
+    "nodemon": "^1.19.4",
     "sort-package-json": "^1.22.1"
   }
 }
