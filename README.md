@@ -5,4 +5,3 @@ Hi if you're reading this you probably wanted to checkout what this portfolio re
 It consists out of a react frontend and minimally served with koa as it just needs to serve static files.
 Click [here](emielvanseveren.be), or in the title to visit the website.
 
-
