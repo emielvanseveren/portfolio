@@ -78,7 +78,12 @@ export default function Blob(){
   const [trail, set] = useTrail(3, () => ({ xy: [startPostion.x, startPostion.y], config: i => (i === 0 ? fast : slow) }))
 
   return (
-    <Container onClick={() => setBg(setColors())} onMouseMove={e => set({ xy: [e.clientX, e.clientY] })} >
+    <Container
+      onClick={() => setBg(setColors())}
+      onMouseMove={e => set({ xy: [e.clientX, e.clientY] })} // desktop
+      onTouchMove={e => set({ xy: [e.touches[0].clientX, e.touches[0].clientY ]})} // fallback for safari tablets & mobile
+      onPointerMove={e => set({ xy: [e.clientX, e.clientY] })} // mobile
+    >
       <svg style={{ position: 'absolute', width: 0, height: 0 }}>
         <filter id="bubble">
           <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="35"/>
