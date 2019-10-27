@@ -5,4 +5,4 @@ Hi if you're reading this you probably wanted to checkout what this portfolio re
 It consists out of a react frontend and minimally served with koa as it just needs to serve static files.
 Click [here](emielvanseveren.be), or in the title to visit the website.
 
-<img src="https://github.com/emielvanseveren/portfolio/blob/49-readme/documentation/preview.gif" />
+<img src="https://github.com/emielvanseveren/portfolio/blob/master/documentation/preview.gif" />
