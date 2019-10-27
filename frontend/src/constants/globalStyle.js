@@ -14,6 +14,8 @@ const Style = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
     transition: 0.4s background-color;
     background-color: ${({ theme }) => theme.background};
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
 
   h1,h2,h3,h4,h5,h6,p,a,button,label,input,div,textarea{

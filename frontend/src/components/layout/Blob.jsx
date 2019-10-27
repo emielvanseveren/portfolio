@@ -7,6 +7,8 @@ const Container = styled.div`
   position: absolute;
   width: 100%;
   height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
 `
 
 const Blobs = styled.div`
