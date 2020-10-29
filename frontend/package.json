@@ -24,7 +24,7 @@
     "react-toastify": "^5.4.0",
     "react-tooltip": "^3.11.1",
     "styled-components": "^4.4.0",
-    "three": "^0.109.0"
+    "three": "^0.122.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
